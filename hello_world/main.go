@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"mylearn/nahid"
+)
 
 func main() {
-	fmt.Println("hello world")
+	fmt.Println("Learn go language by Hello World")
+	nahid.PrintMessage("Hello World")
 }
